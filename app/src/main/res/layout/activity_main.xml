@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.budiyev.android.codescanner.CodeScannerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/barScanner"
+            app:autoFocusButtonColor="#ffffff"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonColor="#ff22"
+            app:flashButtonVisible="true"
+            app:frameColor="#00ff00"
+            app:frameCornersSize="50dp"
+            app:frameCornersRadius="0dp"
+            app:frameAspectRatioWidth="1"
+            app:frameAspectRatioHeight="1"
+            app:frameSize="0.75"
+            app:frameThickness="2dp"
+            app:maskColor="#77000000"
+
+            >
+
+        </com.budiyev.android.codescanner.CodeScannerView>
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
